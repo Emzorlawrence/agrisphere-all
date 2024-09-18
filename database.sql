@@ -170,7 +170,6 @@ CREATE TABLE `audit_histories` (
 
 --
 -- Dumping data for table `audit_histories`
---
 
 LOCK TABLES `audit_histories` WRITE;
 /*!40000 ALTER TABLE `audit_histories` DISABLE KEYS */;
