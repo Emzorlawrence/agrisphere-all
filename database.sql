@@ -176,6 +176,22 @@ LOCK TABLES `audit_histories` WRITE;
 /*!40000 ALTER TABLE `audit_histories` ENABLE KEYS */;
 UNLOCK TABLES;
 
+CREATE TABLE ec_product_specification_attribute (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    product_id INT NOT NULL,
+    attribute_name VARCHAR(255),
+    attribute_value VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+--
+
+LOCK TABLES `ec_product_specification_attribute` WRITE;
+/*!40000 ALTER TABLE `audit_histories` DISABLE KEYS */;
+/*!40000 ALTER TABLE `audit_histories` ENABLE KEYS */;
+UNLOCK TABLES;
+
 --
 -- Table structure for table `categories`
 --
