@@ -48,7 +48,7 @@ UNLOCK TABLES;
 --
 -- Table structure for table `admin_notifications`
 --
-
+vendor
 DROP TABLE IF EXISTS `admin_notifications`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
