@@ -22,13 +22,7 @@
                 <div>[product-category-products category_id="18"][/product-category-products]</div>
                 <div>[featured-posts title="Health Daily" background="general/blog-bg.jpg"
                     app_enabled="1"
-                    app_title="Shop faster with Farmart App"
-                    app_description="Available on both iOS & Android"
-                    app_bg="general/app-bg.png"
-                    app_android_img="general/app-android.png"
-                    app_android_link="#"
-                    app_ios_img="general/app-ios.png"
-                    app_ios_link="#"][/featured-posts]</div>
+                    </div>
             </div>
             <br>
             <div>- Template: <strong>Homepage</strong>.</div>
